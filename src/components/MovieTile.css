@@ -1,0 +1,31 @@
+.movieCard {
+  display: table;
+  width: 20%;
+  height: 9vw;
+  color: #0c0c0c;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 1px 1.5px #888888;
+  background: #f5f5f5;
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .movieCard {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .movieCard {
+    width: 90%;
+  }
+}
+.movieName {
+  color: navy;
+}
+.cardContent {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+}

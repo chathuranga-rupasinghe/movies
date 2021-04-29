@@ -1,0 +1,36 @@
+.mainPage {
+  margin: 4%;
+  box-shadow: 0px 1px 1.5px #888888;
+}
+
+.filterBox {
+  background-color: #778899;
+  width: 100%;
+}
+
+.filter {
+  width: 50%;
+  background-color: #778899;
+  float: left;
+}
+.filterTag {
+  width: 40%;
+  color: white;
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .filter {
+    width: 100%;
+  }
+  .filterTag {
+    width: 90%;
+  }
+}
+.movieList {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
